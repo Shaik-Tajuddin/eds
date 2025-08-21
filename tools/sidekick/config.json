@@ -18,6 +18,9 @@
       "title": "Google Assist",
       "environments": [ "edit","dev", "preview", "live", "prod"],
       "url": "https://www.google.com/search?q=edge+delivery+services",
+      "includePaths": [
+        "**.docx**"
+      ],
       "isPalette": true,
       "passConfig":true,
       "passReferrer": true,

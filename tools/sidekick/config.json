@@ -12,6 +12,34 @@
       "isPalette": true,
       "passConfig": true,
       "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+    },
+    {
+      "id": "google-assist",
+      "title": "Google Assist",
+      "environments": [ "edit","dev", "preview", "live", "prod"],
+      "url": "https://www.google.com/search?q=edge+delivery+services",
+      "isPalette": false,
+      "passConfig":true,
+      "passReferrer": true,
+      "includePaths": [
+        "**.docx**"
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "isContainer": true
+    },
+    {
+      "containerId": "tools",
+      "id": "contactus",
+      "title": "Contact US",
+      "environments": [ "edit","dev", "preview", "live", "prod" ],
+      "url": "/tools/contactus/contactus.html?",
+      "isPalette": true,
+      "passConfig": true,
+      "includePaths": [ "**/:x**" ],
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:500px; height: calc(100vh - 60px)"
     }
   ]
 }

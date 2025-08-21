@@ -17,7 +17,7 @@ document.addEventListener("readystatechange", () => {
       formdata.append("message", document.getElementById("message").value);
       console.log("---Submitting form 2----");
       const requestOptions = {
-        method: "POST", body: formdata, redirect: "follow"
+        method: "POST", body: formdata, redirect: "follow", mode: "no-cors"
       };
 
       fetch("https://webhook.site/a98cbc34-d8b6-4e1b-8f5d-e249098bcff3", requestOptions)

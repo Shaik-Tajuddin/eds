@@ -1,23 +1,16 @@
 {
-  "project": "Edge Deliver Services",
+  "project": "EDS",
   "plugins": [
     {
       "id": "asset-library",
       "title": "AEM Assets",
       "environments": [ "edit","dev", "preview", "live", "prod"],
       "url": "http://localhost:4502/assets.html/content/dam?rail=false",
+      "includePaths": [
+        "**.docx**"
+      ],
       "isPalette": true,
       "passConfig": true,
-      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
-    },
-    {
-      "id": "google-assist",
-      "title": "Google Assist",
-      "environments": [ "edit","dev", "preview", "live", "prod"],
-      "url": "https://www.google.com/search?q=edge+delivery+services",
-      "isPalette": true,
-      "passConfig":true,
-      "passReferrer": true,
       "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
     }
   ]

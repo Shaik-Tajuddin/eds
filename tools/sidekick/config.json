@@ -1,11 +1,5 @@
 {
   "project": "EDS",
-  "libraries": [
-    {
-      "text": "Blocks",
-      "paths": ["https://main--eds--shaik-tajuddin.aem.page/tools/sidekick/library.json"]
-    }
-  ],
   "plugins": [
     {
       "id": "asset-library",

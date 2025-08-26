@@ -45,7 +45,7 @@
       "id": "library",
       "title": "Block Library",
       "environments": [ "edit" ],
-      "url": "/tools/sidekick/library.html",
+      "url": "https://sidekick-library--aem-block-collection--adobe.aem.page/tools/sidekick/library.html?plugin=blocks",
       "includePaths": [ "**.docx**"]
     }
   ]
